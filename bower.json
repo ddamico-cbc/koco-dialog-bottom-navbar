@@ -1,0 +1,26 @@
+{
+  "name": "koco-dialog-bottom-navbar",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ddamico-cbc/koco-dialog-bottom-navbar",
+  "authors": [
+    "David D'Amico <david.damico@cbc.ca>"
+  ],
+  "description": "Bottom bar component for dialogs.",
+  "main": "src/dialog-bottom-navbar-ui.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "koco",
+    "dialoger",
+    "dialog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
