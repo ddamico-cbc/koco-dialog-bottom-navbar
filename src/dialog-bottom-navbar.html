@@ -4,7 +4,10 @@
     </button>
     <!-- ko if: saveLabel -->
     <button type="submit" class="btn btn-success pull-right bottom-btn" data-bind="click: save.bind($parent), attr: { title: saveLabel }">
-        <i class="fa fa-save"></i> <span data-bind="text: saveLabel"></span>
+        <!-- ko if: saveIcon -->
+        <i class="fa fa-save"></i> 
+        <!-- /ko -->
+        <span data-bind="text: saveLabel"></span>
     </button>
     <!-- /ko -->
 </bottom-navbar>

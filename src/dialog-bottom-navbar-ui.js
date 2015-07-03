@@ -8,6 +8,7 @@ define(['text!./dialog-bottom-navbar.html'],
 
             self.closeLabel = params.closeLabel;
             self.saveLabel = params.saveLabel;
+            self.saveIcon = params.saveIcon;
 
             self.save = params.save;
             self.close = params.close;
