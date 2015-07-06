@@ -1,9 +1,9 @@
-<bottom-navbar>
-    <button type="button" class="btn btn-default pull-left bottom-btn" data-bind="click: close, attr: { title: closeLabel }">
+<bottom-navbar params="dialogButtonSize: $parent.params.dialogButtonSize">
+    <button type="button" class="btn btn-default navbar-btn pull-left bottom-btn" data-bind="click: close, attr: { title: closeLabel }, css: buttonSizeClass">
         <i class="fa fa-angle-left"></i> <span data-bind="text: closeLabel"></span>
     </button>
     <!-- ko if: saveLabel -->
-    <button type="submit" class="btn btn-success pull-right bottom-btn" data-bind="click: save.bind($parent), attr: { title: saveLabel }">
+    <button type="submit" class="btn btn-success pull-right bottom-btn navbar-btn" data-bind="click: save.bind($parent), attr: { title: saveLabel }, css: buttonSizeClass">
         <!-- ko if: saveIcon -->
         <i class="fa fa-save"></i> 
         <!-- /ko -->
